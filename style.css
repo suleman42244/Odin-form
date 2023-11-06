@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+}
+.logo{
+    height: 10rem;
+}
+.odin-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.name{
+    color: white;
+    font-size: 50px;
+    padding-top: 60px;
+    font-family: 'Kenia', sans-serif;
+}
